@@ -2,7 +2,7 @@ documentWidth=window.screen.availWidth;
 gridContainerWidth = 0.92*documentWidth;
 cellSideLength = 0.18*documentWidth;
 cellSpace = 0.04*documentWidth;
-
+const b= 0;
 function getPosTop(i,j){
     return cellSpace+i*(cellSpace+cellSideLength);
 }
