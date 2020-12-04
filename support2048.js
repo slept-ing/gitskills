@@ -4,6 +4,7 @@ cellSideLength = 0.18*documentWidth;
 cellSpace = 0.04*documentWidth;
 const  a =0;
 const b= 0;
+const c=0;
 function getPosTop(i,j){
     return cellSpace+i*(cellSpace+cellSideLength);
 }
